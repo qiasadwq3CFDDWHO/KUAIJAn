@@ -1,0 +1,63 @@
+<link rel="stylesheet" type="text/css" href="../cart/css/cart2.css" />
+<div class="cart-box">
+	<div class="cart-header">
+		<div>
+			<a href="###" class="back-one"></a>
+		</div>
+
+		<div>
+			购物车
+		</div>
+		<div class="compile">编辑</div>
+	</div>
+	<div class="dist">
+		<div class="dist-left">
+			提货点: <span>珠口市</span>
+		</div>
+		<div class="dist-right">
+			<a href="##">更换配送方式</a>
+			<span></span>
+		</div>
+	</div>
+
+	<div class="shop-common">
+		<p class="commons">普通商品</p>
+		<ul>
+			<li ng-repeat=" item in data ">
+				<span class="shop-flag cone" flage=1 ng-click="isFlag()" ng-class="{ true : 'cone', false : 'ctwo' }[flag]">
+				</span>
+				<div class="shops-nums">
+					<img src="{{ item.orgProductItem.goodsThumb }}" />
+					<div>剩余<span>3</span>件</div>
+				</div>
+				<div class="cart-much">
+					<span class="cartShop">{{ item.orgProductItem.goodsName }}</span>
+					<span class="cart-price1">
+						<i>￥</i>
+						<span class="cart-price2">{{ item.orgProductItemAide.showPrice }}</span>
+					</span>
+				</div>
+				<div class="shop-input">
+					<span ng-click='reduce()' class="cart-reduce">-</span>
+					<input class="input-num" type="text" value="{{ item.count }}">
+					<span ng-click='add()' class="cart-add">+</span>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+	<div class="shop-footer">
+		<div>
+			<span id="allSelect" class="all-shop cone" ng-class="{ true : 'cone', false : 'ctwo' }[flag]" ng-click="allFlag()" flage=1 ng-model="flag"></span>
+			<span>全选</span>
+		</div>
+		<div>
+			总计<span><i>￥</i>{{ price }}</span><br/> 
+			总计
+			<span>{{ num }}</span>件，不含配送费
+		</div>
+		<a href="###">
+			结算
+		</a>
+	</div>
+</div>

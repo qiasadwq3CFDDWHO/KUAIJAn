@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="Z-common/css/reset.css" />
+		<script type="text/javascript" src="Z-common/AngularJS/angular.js" ></script>
+		<script type="text/javascript" src="Z-common/AngularJS/angular-ui-router.js" ></script>
+		<script type="text/javascript" src="Z-common/libs/flexible.js" ></script>
+		<script type="text/javascript" src="Z-common/libs/jquery.js" ></script>
+		<style type="text/css">
+			body,html{
+				width: 100%;
+				height: 100%;
+				background: #efefef;
+			}
+			.indexFooter{
+				position: fixed;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				display: flex;
+				justify-content: space-around;
+				background: white;
+			}
+			.indexFooter a{
+				display: block;
+				text-align: center;
+				margin: 0.25rem auto 0.12rem;
+			}
+			.indexFooter a img{
+				display: inline-block;
+				width: 0.58rem;
+				height: 0.59rem;
+			}
+			.indexFooter a p{
+				color: #666;
+			}
+			.goTop{
+				width: 1.37rem;
+				height: 1.37rem;
+				background: url(http://wx.kjjhome.com/source/images/icon_top.png) rgba(0, 0, 0, 0.4) no-repeat center;
+				background-size: 0.78rem;
+				position: fixed;
+				right: 0.31rem;
+				bottom: 1.87rem;
+				border-radius: 100%;
+				z-index: 100000;
+			}
+		</style>
+	</head>
+	<body ng-app="myApp">
+		<div ui-view></div>
+		<div class="indexFooter">
+		<div class="goTop">
+		</div>
+            <section>
+                <a ui-sref="home">
+                	<img src="http://wx.kjjhome.com/source/images/i6.png"/>
+                	<p>首页</p>
+                </a>
+            </section>
+            <section>
+                <a ui-sref="kuaijiegou">
+                	<img src="http://wx.kjjhome.com/source/images/i7.png"/>
+                	<p>快捷购</p>
+                </a>
+            </section>
+            <section>
+                <a ui-sref="cart">
+                	<img src="http://wx.kjjhome.com/source/images/i8.png"/>
+                	<p>购物车</p>
+                </a>
+            </section>
+            <section>
+                <a ui-sref="dl">
+                	<img src="http://wx.kjjhome.com/source/images/i9.png"/>
+                	<p>订单</p>
+                </a>
+            </section>
+            <section>
+                <a ui-sref="mine">
+                	<img src="http://wx.kjjhome.com/source/images/i10.png"/>
+                	<p>我的</p>
+                </a>
+            </section>
+        </div>
+	</body>
+	
+	<script type="text/javascript">
+		var goTop = document.querySelector(".goTop");
+		goTop.onclick = function () {
+			document.body.scrollTop = 0;
+		}
+	</script>
+	
+	<script type="text/javascript" src="../router.js" ></script>
+	<script type="text/javascript" src="../services.js" ></script>
+	<script type="text/javascript" src="../factory.js" ></script>
+	<script type="text/javascript" src="../home/js/home.js" ></script>
+	<script type="text/javascript" src="../home/js/spxq.js" ></script>
+	<script type="text/javascript" src="../home/js/goodsxq.js" ></script>
+	<script type="text/javascript" src="../home/js/ziti.js" ></script>
+	<script type="text/javascript" src="../kuaijiegou/js/all.js" ></script>
+	<script type="text/javascript" src="../kuaijiegou/js/kuaijiegou.js" ></script>
+	<script type="text/javascript" src="../cart/js/cart.js" ></script>
+	<script type="text/javascript" src="../dl/js/dltz.js" ></script>
+	<script type="text/javascript" src="../mine/js/account.js" ></script>
+	<script type="text/javascript" src="../mine/js/member.js" ></script>
+	<script type="text/javascript" src="../mine/js/ticket.js" ></script>
+	<script type="text/javascript" src="../Z-common/libs/swiper.js" ></script>
+</html>

@@ -1,0 +1,181 @@
+p,
+span {
+  color: #666666;
+}
+img {
+  display: block;
+}
+.top {
+  width: 100%;
+  height: 1.37rem;
+  background: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}
+.top .top-1 {
+  width: 0.78rem;
+  height: 0.78rem;
+  background: url(http://wx.kjjhome.com/source/images/scan.png);
+  background-size: 0.78rem 0.78rem;
+  margin-left: 0.31rem;
+}
+.top .top-2 {
+  display: flex;
+}
+.top .top-2 span {
+  display: inline-block;
+  width: 0.31rem;
+  height: 0.46rem;
+  background: url(http://wx.kjjhome.com/source/images/load2.png);
+  background-size: 0.31rem 0.46rem;
+  margin-top: 0.15rem;
+  margin-right: 0.3rem;
+}
+.top .top-2 p {
+  color: white;
+  font-size: 1.5em;
+}
+.top .top-2 a {
+  display: inline-block;
+  width: 0.43rem;
+  height: 0.25rem;
+  background: url(http://wx.kjjhome.com/source/images/down.png);
+  background-size: 0.43rem 0.25rem;
+  margin-top: 0.31rem;
+  margin-left: 0.3rem;
+}
+.top .top-3 {
+  width: 0.5rem;
+  height: 0.62rem;
+  background: url(http://wx.kjjhome.com/source/images/searchwhite.png);
+  background-size: 0.5rem 0.62rem;
+  margin-right: 0.6rem;
+}
+.swiper-container img {
+  width: 100%;
+  margin-top: 1.37rem;
+}
+.homeNew {
+  background: white;
+  height: 2.5rem;
+}
+.homeNew ul {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 0.3rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+.homeNew ul li {
+  text-align: center;
+}
+.homeNew ul li img {
+  display: inline-block;
+  width: 1.25rem;
+}
+.homeBanner {
+  width: 100%;
+  height: 100%;
+  background: white;
+  margin-top: 0.5rem;
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+}
+.homeBanner .homeBanner1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-bottom: 0.15rem;
+}
+.homeBanner .homeBanner1 .homeBanner1-1 {
+  width: 37%;
+  margin-left: 2%;
+}
+.homeBanner .homeBanner1 .homeBanner1-1 img {
+  width: 100%;
+}
+.homeBanner .homeBanner1 .homeBanner1-2 {
+  width: 57%;
+  margin-left: 2%;
+}
+.homeBanner .homeBanner1 .homeBanner1-2 img {
+  width: 100%;
+}
+.homeBanner .homeBanner1 .homeBanner1-2 .b2 {
+  margin-bottom: 4%;
+}
+.homeBanner .homeBanner2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background: white;
+}
+.homeBanner .homeBanner2 .homeBanner2-2 {
+  width: 37%;
+  margin-left: 2%;
+}
+.homeBanner .homeBanner2 .homeBanner2-2 img {
+  width: 100%;
+}
+.homeBanner .homeBanner2 .homeBanner2-1 {
+  width: 57%;
+  margin-left: 2%;
+}
+.homeBanner .homeBanner2 .homeBanner2-1 img {
+  width: 100%;
+}
+.homeBanner .homeBanner2 .homeBanner2-1 .b4 {
+  margin-bottom: 4%;
+}
+.goodsImg {
+  width: 100%;
+}
+.homeGoods1 {
+  width: 100%;
+  height: 100%;
+}
+.homeGoods1 .goods {
+  float: left;
+  width: 4.68rem;
+  height: 6.75rem;
+  margin: 0 0 0.15rem 2%;
+  background: white;
+  position: relative;
+}
+.homeGoods1 .goods img {
+  width: 100%;
+}
+.homeGoods1 .goods p {
+  height: 1rem;
+  color: #666;
+  margin: 0 1em 0.31rem 1em;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: normal;
+}
+.homeGoods1 .goods span {
+  display: inline-block;
+  color: #ff8a00;
+  margin: 0 1em 0.31rem 1em;
+}
+.homeGoods1 .homeBtn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.homeGoods1 .homeBtn img {
+  width: 0.93rem;
+  height: 0.93rem;
+}
+.homeFotter {
+  clear: both;
+  text-align: center;
+  margin-bottom: 2.18rem;
+}
+/*# sourceMappingURL=home.css.map */

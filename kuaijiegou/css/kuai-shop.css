@@ -1,0 +1,98 @@
+.top {
+  width: 100%;
+  height: 1.37rem;
+  background: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 999;*/
+}
+.top .top-1 {
+  width: 0.78rem;
+  height: 0.78rem;
+  background: url(http://wx.kjjhome.com/source/images/scan.png);
+  background-size: 0.78rem 0.78rem;
+  margin-left: 0.31rem;
+}
+.top .top-2 {
+  display: flex;
+}
+.top .top-2 span {
+  display: inline-block;
+  width: 0.31rem;
+  height: 0.46rem;
+  background: url(http://wx.kjjhome.com/source/images/load2.png);
+  background-size: 0.31rem 0.46rem;
+  margin-top: 0.15rem;
+  margin-right: 0.3rem;
+}
+.top .top-2 p {
+  color: white;
+  font-size: 1.5em;
+}
+.top .top-2 a {
+  display: inline-block;
+  width: 0.43rem;
+  height: 0.25rem;
+  background: url(http://wx.kjjhome.com/source/images/down.png);
+  background-size: 0.43rem 0.25rem;
+  margin-top: 0.31rem;
+  margin-left: 0.3rem;
+}
+.top .top-3 {
+  width: 0.5rem;
+  height: 0.62rem;
+  background: url(http://wx.kjjhome.com/source/images/searchwhite.png);
+  background-size: 0.5rem 0.62rem;
+  margin-right: 0.6rem;
+}
+#box{font-family: "黑体";}
+footer{height:1.231481rem;position: fixed;bottom:0;left:0;background:red;}
+.shop-left{float:left;height:15.435185rem;background: #f3f4f6;overflow:scroll;width:3.0rem;}
+.shop-type{ border-bottom:0.027778rem solid #e4e5e6;background:#f3f4f6;width:3.0rem;}
+.shop-type a{position:relative;padding-left:0.675926rem;width:2.324074rem;font-size:0.324074rem;color:#333333;line-height:1.12037rem; display: inline-block;}
+.shop-type span{position:absolute;top:0.314815rem;left:0.212963rem;display:inline-block;width:0.37037rem; height:0.37037rem;}
+#box>div>div:nth-of-type(1)>a>span{background: url(../images/buy2.png);background-size:cover;}
+#box>div>div:nth-of-type(2)>a>span{background: url(../images/buy4.png);background-size:cover;}
+#box>div>div:nth-of-type(3)>a>span{background: url(../images/buy5.png);background-size:cover;}
+#box>div>div:nth-of-type(4)>a>span{background: url(../images/buy6.png);background-size:cover;}
+#box>div>div:nth-of-type(5)>a>span{background: url(../images/buy7.png);background-size:cover;}
+#box>div>div:nth-of-type(6)>a>span{background: url(../images/buy8.png);background-size:cover;}
+#box>div>div:nth-of-type(7)>a>span{background: url(../images/buy10.png);background-size:cover;}
+#box>div>div:nth-of-type(8)>a>span{background: url(../images/buy11.png);background-size:cover;}
+#box>div>div:nth-of-type(9)>a>span{background: url(../images/buy12.png);background-size:cover;}
+.shop-type>ul{display: none;}
+.shop-type>ul li{background:#fff;border-bottom:0.018519rem solid #ebebeb; 
+	  height:1.12963rem; text-align:center; line-height:1.12963rem;}
+.orangin{color:#ff8a00;}
+.black{color:#000;}
+.shop-type>ul li:last-of-type{border-bottom:none;}
+.shop-right{float:left;width:7rem;background: #fff;height:14.977407rem;overflow: scroll;}
+.shop-right ul{ margin-bottom: 1rem;}
+.shop-right ul li{position:relative;width:6.759259rem;border-bottom:0.027777rem solid #ebebeb;margin-left:0.129629rem;height:2.518518rem;}
+.shop-right ul li:last-of-type{border:none;}
+.shop-right ul li img{width:1.555555rem;height:1.555555rem;float:left;
+margin:0.416666rem 0 0 0.583333rem;}
+.shop-right ul li>.shop-detail{float:right;margin-top:0.342592rem;height:1.379629rem;width:3.712962rem;font-size:0.287037rem}
+.shop-right ul li>.shop-detail>p{color:#ff8a00;}
+.shop-right ul li>.shop-detail>p i{    font-family: "Microsoft YaHei",微软雅黑;
+    font-style: normal;font-weight:400;}
+.shop-right ul li>.num-shop{position:absolute;bottom:0.083333rem;right:0;bottom:0.074074rem;}
+.shop-right ul li>.num-shop span{
+	float:left;
+	width:0.685185rem;
+	height:0.685185rem;}
+.shop-right ul li>.num-shop .reduce{
+	background: url(../images/reduce.png);
+	background-size:cover ;
+	display: none;
+}
+.shop-right ul li>.num-shop .add{background: url(../images/plus.png);background-size:cover ;}
+.shop-right ul li>.num-shop .num-shoping{
+	line-height:0.685185rem;text-align:center;font-size:0.37037rem;
+	display: none;
+	}

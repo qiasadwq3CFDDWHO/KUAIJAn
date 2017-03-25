@@ -1,0 +1,27 @@
+{
+  "listClassLevelTwo": [
+    {
+      "classId": 82,
+      "className": "午餐",
+      "classLevel": 2,
+      "classQuantity": "",
+      "classOrder": 255,
+      "classShowmenu": 1,
+      "classShowhighlight": 0,
+      "classType": 49,
+      "classKeyword": "",
+      "class1": null,
+      "class2": null,
+      "class3": null,
+      "classParent": 80,
+      "classTime": 1458118746000,
+      "classActive": 1,
+      "classCommonUse": 0,
+      "cllassUrl": null,
+      "classDesc": "",
+      "childrenList": [],
+      "productType": null,
+      "skuNum": 0
+    }
+  ]
+}

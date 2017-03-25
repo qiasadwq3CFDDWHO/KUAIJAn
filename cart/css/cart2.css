@@ -1,0 +1,56 @@
+body{font-family: "黑体";height:100%;}
+.cart-box{min-height:100%;position:relative;}
+.cart-header{height:1.222222rem;background: #0061d0;}
+.cart-header>div:nth-of-type(1){width:1.222222rem;height:1.222222rem;float:left;}
+.cart-header>div:nth-of-type(1) .back-one{width:1.222222rem;height:1.222222rem;background:url(../images/back.png) no-repeat center;
+   background-size:0.313888rem ;display: inline-block;}
+.cart-header>div:nth-of-type(2){width:7.638888rem;text-align:center; height:1.222222rem;
+line-height:1.222222rem;float:left;color:#fff;font-size:0.486111rem;}
+.compile{height:1.222222rem;line-height:1.222222rem;color:#fff;font-size:0.375rem;}
+.dist{height:1.097222rem;background:#fff;}
+.dist-left{width:6.069444rem;float:left;line-height:1.097222rem;padding-left:0.291666rem;
+font-size:0.333333rem;color:#6b6b6b;}
+.dist-right{width:2.805555rem;line-height:1.097222rem;height:1.097222rem;float:right;margin-right:0.25rem;}
+.dist-right a{color:#ff8a00;vertical-align: middle;font-size:0.319444rem;}
+.dist-right span{width:0.291666rem;height:0.416666rem;
+background: url(../images/go.png);background-size:cover ;display: inline-block;vertical-align: middle;}
+.shop-common{width:100%;background: #efefef;height:12.611111rem;padding-top:0.597222rem;}
+.shop-common>.commons{height:1.361111rem;background: #fff;font-size: 0.375rem;
+line-height: 1.361111rem;text-indent: 0.263888rem;color:#818181;}
+.shop-common>ul{margin-top:0.027777rem;background: #fff;    margin-bottom: 4rem;}
+.shop-common>ul li{height:2.861111rem;position:relative;}
+.shop-common>ul li>span{float:left;}
+.shop-common>ul li .shop-flag{margin:0.777777rem 0 0 0.444444rem;width:0.583333rem;
+height:0.583333rem;}
+.cone{background: url(../images/car.png) no-repeat;background-size: cover;}
+.ctwo{background: url(../images/car.png) no-repeat -0.583333rem 0;background-size: cover;}
+.shop-common>ul li .shops-nums{float:left;}
+.shop-common>ul li .shops-nums img{width:1.666666rem;height:1.666666rem;
+float:left;border:0.027777rem solid #cbcbcb;margin-top:0.277777rem;}
+.shop-common>ul li .shops-nums{margin-left:0.347222rem;height:100%;width:1.736111rem;}
+.shop-common>ul li .shops-nums div{float:left;margin-top:0.194444rem;color:#f00;}
+.shop-common>ul li>div:nth-of-type(2){margin:0.263888rem 0 0 0.277777rem;width:5.902777rem;float:left;}
+.shop-common>ul li>div:nth-of-type(2)>span:nth-of-type(1){color:#686868;font-size:0.333333rem;display: block;
+white-space: nowrap; text-overflow: ellipsis;overflow: hidden;width:5.805555rem;height:0.444444rem;}
+.shop-common>ul li>div:nth-of-type(2)>span:nth-of-type(2) i{font-style: normal;
+    font-family: "Microsoft YaHei","Glyphicons","微软雅黑";    font-weight: 400;}
+.shop-common>ul li>div:nth-of-type(2)>span:nth-of-type(2){color:#f00;}
+.shop-common>ul li .shop-input{width:3.611111rem;height:0.902777rem;background: #cdcdcd;
+position: absolute;right:0.277777rem;top:1.111111rem;}
+.shop-common>ul li .shop-input span{float:left;width:1.111111rem;
+height:0.902777rem;text-align: center;line-height:0.902777rem;font-size: 0.555555rem;}
+.shop-common>ul li .shop-input input{float:left;width:1.388888rem;text-align: center;
+height:0.833333rem;line-height: 0.777777rem;border:none;padding:none;margin-top:0.013888rem;}
+.shop-footer{width:100%;float:left;height:1.305555rem;position: fixed;bottom:0;left:0;background: #fff;
+border-top:0.027777rem solid #d9d9d9;border-bottom:0.027777rem solid #d9d9d9;z-index:10;}
+.shop-footer>div:nth-of-type(1){line-height:0.666666rem;width:1.430555rem;height:0.666666rem;float:left;margin:0.305555rem 0 0 0.388888rem;}
+.shop-footer>div:nth-of-type(1)>.all-shop{    width: 0.583333rem;height: 0.583333rem;
+  float:left;margin-right:0.083333rem;}
+.shop-footer>div:nth-of-type(2){line-height:0.555555rem;width:4.194444rem;float:left;margin-left:0.75rem;}
+.shop-footer>div:nth-of-type(2)>span:nth-of-type(1){color:#f00;}
+.shop-footer>div:nth-of-type(2)>span:nth-of-type(1)>i{
+        font-family: "Microsoft YaHei",微软雅黑; font-style: normal; font-weight: 400;}
+.shop-footer>a{ width:2.5rem;height:1.333333rem;float:right;background: #fd6d00;
+font-size:0.416666rem;line-height:1.333333rem ;text-align:center;color:#fff;}
+
+.shop-flag>input{border:none}

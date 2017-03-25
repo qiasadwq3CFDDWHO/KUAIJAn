@@ -1,0 +1,77 @@
+<link rel="stylesheet" href="../home/css/home.css" />
+<link rel="stylesheet" href="../Z-common/css/swiper-3.3.1.min.css" />
+<div ui-view>
+<div id="Z-home">
+	
+	<div class="top">
+		<div class="top-1"></div>
+		<a ui-sref="home.ziti" class="top-2">
+			<span></span>
+			<p>中华路甲10号</p>
+			<a href=""></a>
+		</a>
+		<div class="top-3"></div>
+	</div>
+	
+	<div class="swiper-container">
+	    <div class="swiper-wrapper">
+	        <!--<div class="swiper-slide" ng-repeat="item in hsCtrl.data">-->
+	        <div class="swiper-slide" ng-repeat="item in data">
+	        	<img ng-src="{{ item.activity.img }}"/>
+	        </div>
+	    </div>
+	    <!-- 如果需要分页器 -->
+	    <div class="swiper-pagination"></div>
+	</div>
+	
+	
+	<div class="homeNew">
+		<ul>
+			<li><a ui-sref="kuaijiegou"><img src="http://wx.kjjhome.com/source/images/new1.png" alt="" /><p>午餐</p></a></li>
+			<li><a ui-sref="dl"><img src="http://wx.kjjhome.com/source/images/new2.png" alt="" /><p>全部订单</p></a></li>
+			<li><a ui-sref="mine.ticket"><img src="http://wx.kjjhome.com/source/images/new3.png" alt="" /><p>优惠券</p></a></li>
+			<li><a ui-sref="mine"><img src="http://wx.kjjhome.com/source/images/new4.png" alt="" /><p>会员中心</p></a></li>
+		</ul>
+	</div>
+	
+	<div class="homeBanner">
+		<div class="homeBanner1">
+			<div class="homeBanner1-1">
+				<a ui-sref="kuaijiegou"><img src="http://wx.kjjhome.com/source/images/b1.jpg" alt="" class="b1"/></a>
+			</div>
+			<div class="homeBanner1-2">
+				<a ui-sref="kuaijiegou"><img src="http://wx.kjjhome.com/source/images/b2.jpg" alt="" class="b2"/></a>
+				<a ui-sref="kuaijiegou"><img src="http://wx.kjjhome.com/source/images/b3.jpg" alt="" class="b3"/></a>
+			</div>
+		</div>
+		<div class="homeBanner2">
+			<div class="homeBanner2-1">
+				<a ui-sref="kuaijiegou"><img src="http://wx.kjjhome.com/source/images/b4.jpg" alt="" class="b4"/></a>
+				<a ui-sref="kuaijiegou"><img src="http://wx.kjjhome.com/source/images/b5.jpg" alt="" class="b5"/></a>
+			</div>
+			<div class="homeBanner2-2">
+				<a ui-sref="kuaijiegou"><img src="http://wx.kjjhome.com/source/images/b6.jpg" alt="" class="b6"/></a>
+			</div>
+		</div>
+	</div>
+	<img class="goodsImg" src="http://img.kjjhome.com/imgBase/shopPage/eec955c044aa11e6a327daad5ae6fc71_.jpg"/>
+	<div class="homeGoods1">
+		<div class="goods" ng-repeat="item in data1">
+			<a ui-sref="home.spxq" ng-click="showSpxq()">
+				<img src="{{ item.orgProductItem.goodsImg180 }}"/>
+				<p>{{ item.orgProductItem.goodsName }}</p>
+				<span>￥{{ item.orgProductInventory.sellPrice }}</span>
+			</a>
+			<span class="homeBtn" ng-click="addGoods()"><img src="http://wx.kjjhome.com/source/images/addcar3.png"/></span>
+		</div>	
+	</div>
+	
+	<div class="homeFotter">
+		<h3>小主这次真的没有了!</h3>
+	</div>
+	
+	
+</div>
+</div>
+
+

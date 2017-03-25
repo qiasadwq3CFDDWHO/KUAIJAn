@@ -1,0 +1,19 @@
+<link rel="stylesheet" type="text/css" href="../home/css/ziti.css" />
+<header>
+	<div class="header">
+		<img src="../home/img/35_03.jpg" onclick="history.back()">
+		<div class="header2">
+			<span id="span1">自提门店</span><span id="span2">收货地址</span>
+		</div>
+	</div>
+	<p>当前位置：中华路甲10号</p>
+	<p>最近门店：{{ title }}</p>
+</header>
+<div class="list">
+	<ul class="ul1">
+		<li ng-repeat="item in data" ng-click="choseArea()">{{ item.area_name }}</li>
+	</ul>
+	<ul class="ul2">
+		<li ng-repeat="item in data1" ng-click="choseTitle()">{{ item.title }}</li>
+	</ul>
+</div>

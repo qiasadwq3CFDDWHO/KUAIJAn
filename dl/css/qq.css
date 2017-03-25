@@ -1,0 +1,171 @@
+#body{
+	width: 10rem;
+	height: 17.7rem;
+	background: #f7f7f7;
+}
+.header{
+	width: 10rem;
+	height: 1.569444rem;
+}
+.header p{
+	float: left;
+	font-size: 0;
+}
+.header p:nth-of-type(1){
+	margin-top: 0.4rem;
+	margin-left: 0.277778rem;
+}
+.header p:nth-of-type(1) img{
+	height: 1.125rem;
+	width: 1.125rem;
+}
+.header p:nth-of-type(2){
+	font-size: 0.416667rem;
+	margin-top: 0.722222rem;
+	
+}
+.header p:nth-of-type(3){
+	float: right;
+	font-size: 0.236111rem;
+	color: #585858;
+	transform: scale(0.8);
+	margin-top: 1.1rem;
+	
+}
+
+input:nth-of-type(1){
+	height: 1.125rem;
+	width: 9.1rem;
+	margin-top: 0.277778rem;
+	margin-left: 0.3rem;
+	font-size: 0.402778rem;
+	color: #acacac;
+	border: 0.013889rem solid #acacac;
+	border-radius: 0.111111rem 0.111111rem 0 0;
+	padding-left: 0.277778rem;
+}
+input:nth-of-type(2){
+	height: 1.125rem;
+	width: 9.1rem;
+	font-size: 0.402778rem;
+	color: #acacac;
+	margin-left: 0.3rem;
+	border: 0.013889rem solid #acacac;
+	border-radius:0 0 0.111111rem 0.111111rem ;
+	padding-left: 0.277778rem;
+}
+
+input:nth-of-type(3){
+	height: 1.125rem;
+	line-height: 1.125rem;
+	width: 9.388889rem;
+	text-align: center;
+	font-size: 0.402778rem;
+	color: white;
+	margin-left: 0.3rem;
+	border: 0.013889rem solid #acacac;
+	border-radius: 0.111111rem ;
+	background: #73c429;
+	margin-top: 0.666667rem;
+	
+}
+
+#body>p:nth-of-type(1){
+	font-size: 0.347222rem;
+	color: #4d4d4d;
+	
+	margin-top: 1.472222rem;
+	margin-left: 0.319444rem;
+}
+
+.box1{
+	height: 1.083333rem;
+	width: 9.388889rem;
+	border: 0.027778rem solid #e5e5e5;
+	border-radius: 0.111111rem 0.111111rem 0 0;
+	margin-left: 0.277778rem;
+	background: white;
+	margin-top: 0.333333rem;
+}
+.box1 img{
+	height: 0.416667rem;
+	width: 0.416667rem;
+	margin: 0.333333rem 0.194444rem 0 0.277778rem;
+}
+.box1 p:nth-of-type(2){
+	font-size: 0.333333rem;
+	color: #515151;
+	margin-top: 0.333333rem;
+}
+.box1 p{
+	float: left;
+}
+
+
+.box2{
+	height: 1.083333rem;
+	width: 9.388889rem;
+	border: 0.027778rem solid #e5e5e5;
+	border-radius:0 0 0.111111rem 0.111111rem;
+	margin-left: 0.277778rem;
+	background: white;
+	
+}
+.box2 img{
+	height: 0.416667rem;
+	width: 0.416667rem;
+	margin: 0.333333rem 0.194444rem 0 0.277778rem;
+}
+.box2 p:nth-of-type(2){
+	font-size: 0.333333rem;
+	color: #515151;
+	margin-top: 0.333333rem;
+}
+.box2 p{
+	float: left;
+}
+
+#body>p:nth-of-type(2){
+	width: 10rem;
+	font-size: 0.25rem;
+	transform: scale(0.9);
+	color: #595959;
+	margin-top: 0.75rem;
+	margin-left: 0.4rem;
+	/*margin: 0.75rem 0 0 1rem;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

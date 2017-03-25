@@ -1,0 +1,154 @@
+.header{
+	height: 1.222222rem;
+	width: 10rem;
+	background: #0161cf;
+}
+.header p{
+	float: left;
+}
+.header p:nth-of-type(1){
+	margin: 0.361111rem 0 0 0.5rem;
+}
+.header p:nth-of-type(1) img{
+	height: 0.5rem;
+	width: 0.305556rem;
+}
+.header p:nth-of-type(2){
+	font-size: 0.5rem;
+	color: white;
+	margin:0.333333rem 3.152778rem 0 3.75rem;
+}
+.header p:nth-of-type(3){
+	font-size: 0.4rem;
+	color: white;
+	margin-top: 0.27rem;
+	height: 0.638889rem;
+	line-height: 0.638889rem;
+	width: 1.055556rem;
+	text-align: center;
+	border: 0.027778rem solid #FFFFFF;
+	border-radius: 0.097222rem;
+}	
+input:nth-of-type(1){
+	height: 1.333333rem;
+	width: 9.111111rem;
+	margin: 0.833333rem 0 0 0.277778rem;
+	border: 0.027778rem solid #cccccc;
+	
+	padding-left: 0.277778rem;
+}
+
+input:nth-of-type(2){
+	height: 1.333333rem;
+	width: 4.861111rem;
+	margin: 0.833333rem 0 0 0.277778rem;
+	border: 0.027778rem solid #cccccc;
+	
+	padding-left: 0.277778rem;
+}
+#body>p:nth-of-type(1){
+	display: inline-block;
+	height: 1.333333rem;
+	line-height: 1.333333rem;
+	width: 3.722222rem;
+	text-align: center;
+	border: 0.027778rem solid #005dc9;
+	border-radius: 0.097222rem;
+	font-size: 0.319444rem;
+	margin-left: 0.277778rem;
+}
+
+input:nth-of-type(3){
+	height: 1.333333rem;
+	width: 9.111111rem;
+	margin: 0.555556rem 0 0 0.277778rem;
+	border: 0.027778rem solid #cccccc;
+	
+	padding-left: 0.277778rem;
+}
+
+input:nth-of-type(4){
+	height: 1.333333rem;
+	width: 9.111111rem;
+	margin: 0.555556rem 0 0 0.277778rem;
+	border: 0.027778rem solid #cccccc;
+	
+	padding-left: 0.277778rem;
+}
+
+.box{
+	height: 1.333333rem;
+	line-height: 1.333333rem;
+	width: 9.388889rem;
+	text-align: center;
+	margin: 0.555556rem 0 0 0.277778rem;
+	font-size: 0.416667rem;
+	color: #FFFFFF;
+	background: #ff8a00;
+	border-radius: 0.097222rem;
+}
+#body>p:nth-of-type(2){
+	margin-left: 0.277778rem;
+	margin-top: 0.625rem;
+}
+#body{
+	height: 17.7rem;
+	position: relative;
+	background: white;
+}
+#body>img:nth-of-type(1){
+	position: absolute;
+	top: 2.583333rem;
+	left: 8.75rem;
+	height: 0.319444rem;
+	width: 0.319444rem;
+}
+	
+#body>img:nth-of-type(2){
+	position: absolute;
+	top: 6.85rem;
+	left: 8.75rem;
+	height: 0.319444rem;
+	width: 0.319444rem;
+}
+
+#body>img:nth-of-type(3){
+	position: absolute;
+	top: 8.9rem;
+	left: 8.75rem;
+	height: 0.319444rem;
+	width: 0.319444rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

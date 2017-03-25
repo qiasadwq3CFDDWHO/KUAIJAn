@@ -1,0 +1,59 @@
+<link rel="stylesheet" type="text/css" href="../home/css/spxq.css" />
+<div ui-view>
+	<header id="header">
+		<div class="left" onclick="history.back()">
+			<img src="../home/img/back.png" />
+		</div>
+		<div class="center">
+			商品介绍
+		</div>
+		<a ui-sref="cart">
+		<div class="right">
+			<img src="../home/img/float_car.png" />
+		</div>
+		</a>
+	</header>
+	<div id="banner">
+		<img src="{{ id.orgProductItem.goodsImg180 }}" />
+	</div>
+	<div id="name">
+		<p>{{ id.orgProductItem.goodsName }}</p>
+		<p>￥</p>
+		<p>{{ id.orgProductInventory.sellPrice }}</p>
+		<p>已有7人评论</p>
+	</div>
+	<div id="alert">
+		<p>提示：</p>
+		<p>15:30前完成下单，可预约今天送达</p>
+	</div>
+	<div id="mid1">
+		<p>规格：</p>
+		<p>{{ id.orgProductItem.goodsId }}ml</p>
+	</div>
+	<div id="mid2" ng-click="goodsxq()">
+		<p>商品详情</p>
+		<p><img src="../home/img/go.png" /></p>
+	</div>
+	<div id="mid2" ng-click="pingjia()">
+		<p>商品评价</p>
+		<p><img src="../home/img/go.png" /></p>
+	</div>
+	<div id="mid3">
+		<p ng-click="goodsxq()">商品详情</p>
+		<p ng-click="pingjia()">商品评价</p>
+		<p>商品咨询</p>
+	</div>
+	<div id="fot">
+		<p>客户服务热线：4000-306-403</p>
+		<p>KJJHOME.COM 快捷键商城</p>
+	</div>
+	<div id="footer">
+		<div class="left" ng-click = "gogood()">
+			<img src="../home/img/cart_sprits_new_02.png" />
+			<p>购物车</p>
+		</div>
+		<div class="right" ng-click="addCart()">
+			加入购物车
+		</div>
+	</div>
+</div>

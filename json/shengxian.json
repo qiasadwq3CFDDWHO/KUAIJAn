@@ -1,0 +1,50 @@
+{
+  "listClassLevelTwo": [
+    {
+      "classId": 86,
+      "className": "水果",
+      "classLevel": 2,
+      "classQuantity": "",
+      "classOrder": 1,
+      "classShowmenu": 0,
+      "classShowhighlight": 0,
+      "classType": 75,
+      "classKeyword": "",
+      "class1": null,
+      "class2": null,
+      "class3": null,
+      "classParent": 85,
+      "classTime": 1465783623000,
+      "classActive": 1,
+      "classCommonUse": 0,
+      "cllassUrl": null,
+      "classDesc": "",
+      "childrenList": [],
+      "productType": null,
+      "skuNum": 0
+    },
+    {
+      "classId": 87,
+      "className": "果切",
+      "classLevel": 2,
+      "classQuantity": "",
+      "classOrder": 255,
+      "classShowmenu": 0,
+      "classShowhighlight": 0,
+      "classType": 75,
+      "classKeyword": "",
+      "class1": null,
+      "class2": null,
+      "class3": null,
+      "classParent": 85,
+      "classTime": 1465784343000,
+      "classActive": 1,
+      "classCommonUse": 0,
+      "cllassUrl": null,
+      "classDesc": "",
+      "childrenList": [],
+      "productType": null,
+      "skuNum": 0
+    }
+  ]
+}

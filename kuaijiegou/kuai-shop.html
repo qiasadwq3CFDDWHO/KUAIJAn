@@ -1,0 +1,150 @@
+<link rel="stylesheet" type="text/css" href="../kuaijiegou/css/kuai-shop.css" />
+<script type="text/javascript" src="../lib/flexible.js"></script>
+<title></title>
+<div class="top">
+	<div class="top-1"></div>
+	<div class="top-2">
+		<span></span>
+		<p>中华路甲10号</p>
+		<a href=""></a>
+	</div>
+	<div class="top-3"></div>
+</div>
+<div id="box">
+	<div class="shop-left">
+		<div class="shop-type" ng-click='change("lingshi")'>
+			<a>
+				<span></span> 零食
+			</a>
+			<ul>
+				<li ng-class="{ true : 'orangin', false : 'black' }[flag]" ng-click='getShop("31")'>全部</li>
+				<li ng-repeat="item in data" ng-click='getShop( item.classId )' >
+					{{ item.className }}
+				</li>
+			</ul>
+		</div>
+
+		<div class="shop-type" ng-click='change("shipin")'>
+			<a>
+				<span></span> 食品
+			</a>
+			<ul>
+				<li  ng-click='getShop("38")'>全部</li>
+				<li  ng-repeat="item in data" ng-click='getShop(item.classId)'>
+					{{ item.className }}
+				</li>
+			</ul>
+		</div>
+
+		<div class="shop-type" ng-click='change("jiushui")'>
+			<a >
+				<span></span> 酒水饮料
+			</a>
+			<ul >
+				<li  ng-click='getShop("17")'>全部</li>
+				<li  ng-repeat="item in data" ng-click='getShop(item.classId)'>
+					{{ item.className }}
+				</li>
+			</ul>
+		</div>
+
+		<div class="shop-type" ng-click='change("liangyou")'>
+			<a>
+				<span></span> 粮油/调味
+			</a>
+			<ul >
+				<li  ng-click='getShop("30")'>全部</li>
+				<li  ng-repeat="item in data" ng-click='getShop(item.classId)'>
+					{{ item.className }}
+				</li>
+			</ul>
+		</div>
+
+		<div class="shop-type" ng-click='change("gehu")'>
+			<a>
+				<span></span> 个户化妆
+			</a>
+			<ul>
+				<li  ng-click='getShop("52")'>全部</li>
+				<li  ng-repeat="item in data" ng-click='getShop(item.classId)'>
+					{{ item.className }}
+				</li>
+			</ul>
+		</div>
+
+		<div class="shop-type" ng-click='change("bangong")'>
+			<a>
+				<span></span> 办公用品
+			</a>
+			<ul >
+				<li  ng-click='getShop("56")'>全部</li>
+				<li  ng-repeat="item in data" ng-click='getShop(item.classId)'>
+					{{ item.className }}
+				</li>
+			</ul>
+		</div>
+
+		<div class="shop-type" ng-click='change()'>
+			<a >
+				<span></span> 生鲜
+			</a>
+			<ul >
+				<li  >全部</li>
+				<li data-id="1">全部</li>
+				<li data-id="1">水果</li>
+				<li data-id="1">果切</li>
+			</ul>
+		</div>
+
+		<div class="shop-type" ng-click='change()'>
+			<a data-id="1">
+				<span></span> 礼品卷
+			</a>
+			<ul>
+				<li data-id="1">全部</li>
+				
+				<li data-id="1">礼品卷</li>
+			</ul>
+		</div>
+
+		<div class="shop-type" ng-click='change("wucan")'>
+			<a>
+				<span></span> 午餐
+			</a>
+			<ul >
+				<li  ng-click='getShop("80")'>全部</li>
+				<li  ng-repeat="item in data" ng-click='getShop(item.classId)'>
+					{{ item.className }}
+				</li>
+			</ul>
+
+		</div>
+
+	</div>
+	<div class="shop-right">
+		<ul>
+			<li class="cart-num"  ng-repeat= "item in commons">
+				<a>
+				  <img src="{{ item.orgProductItem.goodsThumb }}" />
+				</a>
+				
+				<div class="shop-detail">
+					<div>
+						{{ item.orgProductItem.goodsName }}
+					</div>
+					<p><i>￥</i> {{ item.orgProductInventory.sellPrice }}</p>
+				</div>
+
+				<div class="num-shop">
+					<span class="reduce" ng-click='reduce()'></span>
+					<span class="num-shoping"  val="{{ item.orgProductItem.brandId }}">0</span>
+					<span class="add" ng-click='add()'></span>
+				</div>
+			</li>
+			
+        </ul>	
+	</div>
+</div>
+<footer>
+	尾部导航
+</footer>

@@ -1,0 +1,43 @@
+#header{
+	height: 1.222222rem;
+	width: 10rem;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	background: #0061cf;
+}
+#header .left{
+	height: 1.222222rem;
+	width: 1.222222rem;
+	float: left;
+	text-align: center;
+	margin-left: 0.31rem;
+}
+#header .left img{
+	height: 0.5rem;
+	width: 0.305556rem;
+	margin-top: 0.347222rem;
+}
+#header .center{
+	height: 1.222222rem;
+	width: 6.555556rem;
+	float: left;
+	font-size: 0.416667rem;
+	line-height: 1.222222rem;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}
+#header .right{
+	height: 1.222222rem;
+	width: 1.222222rem;
+	float: right;
+	
+	text-align: center;
+}
+#header .right img{
+	height: 0.569444rem;
+	width: 0.569444rem;
+	margin-top: 0.347222rem;
+}
